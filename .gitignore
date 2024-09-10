@@ -1,7 +1,4 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
 /[Ll]ibrary/APIUpdater/
 /[Ll]ibrary/Artifacts/
 /[Ll]ibrary/BuildPlayerData/
@@ -14,7 +11,6 @@
 /[Ll]ibrary/TempArtifacts/
 /[Ll]ibrary/UIElements/
 /[Ll]ibrary/Bee/artifacts/
-/[Ll]ibrary/Bee/Android/
 /[Ll]ibrary/BurstCache/
 /[Ll]ibrary/Bee/CachedNodeOutput/
 /[Bb]uild/
