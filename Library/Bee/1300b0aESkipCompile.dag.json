@@ -8,8 +8,7 @@
       "ToBuildDependencies": [
         1,
         2,
-        3,
-        4
+        3
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -23,25 +22,12 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp",
-      "DisplayName": "Writing 6097564273297756792.rsp",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 83,
-      "PayloadLength": 10211,
-      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\Vivia\\Documents\\C",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
-      ],
-      "DebugActionIndex": 2
-    },
-    {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/AssistantCoreSDKRuntime.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/AssistantVoiceCommandCommon.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.Net.endel.nativewebsocket.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.Voice.Hub.Runtime.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Common.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.VoiceSDK.Mic.Other.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.VoiceSDK.Mic.WebGL.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.Wit.Composer.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.Wit.Dictation.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.WitAi.Conduit.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.WitAi.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.WitAi.Lib.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.WitAi.TTS.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.Audio.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.BuildingBlocks.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.EnvironmentDepth.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.ImmersiveDebugger.Interface.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/meta.xr.mrutilitykit.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.NGO.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.Haptics.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.Interaction.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.Interaction.OVR.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.Interaction.OVR.Samples.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.Interaction.Samples.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.Platform.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Oculus.VR.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Collections.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Netcode.Components.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Netcode.Runtime.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Networking.Transport.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.XR.Management.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/Unity.XR.Oculus.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/VoiceSDK.Dictation.Runtime.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/VoiceSDK.Runtime.Composer.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies/VoiceSDK.Runtime.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.Unsafe.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/ScriptAssemblies\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/AssistantCoreSDKRuntime.dll",
         "Library/ScriptAssemblies/AssistantVoiceCommandCommon.dll",
         "Library/ScriptAssemblies/Meta.Net.endel.nativewebsocket.dll",
@@ -105,21 +91,14 @@
         "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
-        "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+        "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
-      "ToBuildDependencies": [
-        2
-      ],
-      "FrontendResponseFiles": [
-        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
-      ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 3
+      "DebugActionIndex": 2
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -128,120 +107,120 @@
       "Outputs": [],
       "ToBuildDependencies": [
         1,
-        3
+        2
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 4
+      "DebugActionIndex": 3
     }
   ],
   "FileSignatures": [
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
-    },
-    {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/1300b0aESkipCompile-inputdata.json"
     }
   ],
   "StatSignatures": [
+    {
+      "File": "/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/getconf"
+    },
     {
       "File": "Assets/csc.rsp"
     },
@@ -446,7 +425,7 @@
   ],
   "GlobSignatures": [
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/BuildPipeline"
     }
   ],
   "ContentDigestExtensions": [
@@ -468,7 +447,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 1,
-          "ScriptAssembliesAndTypeDB": 4
+          "ScriptAssembliesAndTypeDB": 3
         }
 ,  "DefaultNodes": [
     0
@@ -476,6 +455,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1300b0aESkipCompile.dag.json",
-  "PayloadsFile": "C:/Users/Vivia/Documents/CodeNThings/ATLS 4616/Superhot Recreation/Library/Bee/1300b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "/Users/viviana/VisualStudio/ATLS 4616/Superhot-Recreation/Library/Bee/1300b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }

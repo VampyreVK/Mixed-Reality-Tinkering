@@ -15,7 +15,8 @@
 /[Ll]ibrary/UIElements/
 /[Ll]ibrary/Bee/artifacts
 /[Ll]ibrary/Bee/Android/
-/[Ll]ibrary/BurseCache/
+/[Ll]ibrary/BurstCache/
+/[Ll]ibrary/Bee/CachedNodeOutput/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
